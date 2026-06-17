@@ -1,0 +1,18 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="my_app" type="CMakeRunConfiguration" factoryName="Application" PROGRAM_PARAMS="$CMakeCurrentProgramArguments$" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Project2" TARGET_NAME="my_app" CONFIG_NAME="Release" RUN_TARGET_PROJECT_NAME="Project2" RUN_TARGET_NAME="my_app">
+    <envs>
+      <env name="ARTEMIS_AUTH" value="admin:admin" />
+      <env name="ARTEMIS_GETCOUNT_TARGET" value="/console/jolokia/read/org.apache.activemq.artemis:broker=!%22CoordinationServer!%22,component=addresses,address=!%22WorkQueue!%22,subcomponent=queues,routing-type=!%22anycast!%22,queue=!%22WorkQueue!%22/DurableMessageCount" />
+      <env name="ARTEMIS_PORT" value="8161" />
+      <env name="COORDINATIONSERVER_PORT" value="65096" />
+      <env name="COORDINATIONSERVER_URL" value="172.31.104.113" />
+      <env name="PASSWORD" value="admin" />
+      <env name="USERNAME" value="admin" />
+      <env name="WORKQUEUE_URL" value="tcp://172.31.104.113:61616" />
+      <env name="GMX_PATH" value="/usr/local/gromacs/bin/gmx" />
+    </envs>
+    <method v="2">
+      <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+    </method>
+  </configuration>
+</component>

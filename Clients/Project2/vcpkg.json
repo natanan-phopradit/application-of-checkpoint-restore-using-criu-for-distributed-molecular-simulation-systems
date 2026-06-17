@@ -1,0 +1,33 @@
+{
+  "name" : "project2",
+  "version-string" : "1.0.0",
+  "builtin-baseline" : "b5d1a94fb7f88fd835e360fd23a45a09ceedbf48",
+  "dependencies" : [ {
+    "name" : "boost-asio",
+    "version>=" : "1.90.0#1"
+  }, {
+    "name" : "activemq-cpp",
+    "version>=" : "3.9.5#18"
+  }, {
+    "name" : "lfreist-hwinfo",
+    "version>=" : "2025-07-10"
+  }, {
+    "name" : "boost-beast",
+    "version>=" : "1.90.0#1"
+  }, {
+    "name" : "boost-process",
+    "version>=" : "1.90.0#1"
+  }, {
+    "name" : "boost-chrono",
+    "version>=" : "1.90.0#1"
+  }, {
+    "name" : "boost-json",
+    "version>=" : "1.90.0#1"
+  }, {
+    "name" : "ayush272002-dotenv",
+    "version>=" : "1.0.2"
+  }, {
+    "name" : "boost-log",
+    "version>=" : "1.90.0#1"
+  } ]
+}
